@@ -139,7 +139,7 @@ if($stats==1){
 <td style="font-size:16px;"><b>Admin Remark: </b></td>
 <td colspan="5"><?php
 if($result->AdminRemark==""){
-  echo "waiting for Approval";  
+  echo "Waiting for Approval";  
 }
 else{
 echo htmlentities($result->AdminRemark);

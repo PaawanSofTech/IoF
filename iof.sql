@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Mar 06, 2024 at 04:06 AM
+-- Generation Time: Mar 21, 2024 at 04:46 AM
 -- Server version: 10.4.27-MariaDB
 -- PHP Version: 8.2.0
 
@@ -121,10 +121,7 @@ CREATE TABLE `tblleaves` (
 --
 
 INSERT INTO `tblleaves` (`id`, `LeaveType`, `ToDate`, `FromDate`, `Description`, `PostingDate`, `AdminRemark`, `AdminRemarkDate`, `Status`, `IsRead`, `empid`) VALUES
-(14, 'RH (Restricted Leaves)', '05/12/2023', '01/12/2023', 'Sick', '2023-12-01 03:51:51', 'Fine', '2023-12-01 9:23:24 ', 1, 1, 7),
-(15, 'RH (Restricted Leaves)', '05/12/2023', '01/12/2023', 'Heloo', '2023-12-01 04:03:53', 'Not', '2023-12-01 9:34:48 ', 2, 1, 8),
-(16, 'Casual Leaves', '20/12/2023', '15/12/2023', 'Wedding', '2023-12-20 15:21:23', NULL, NULL, 0, 1, 8),
-(17, 'RH (Restricted Leaves)', '24/12/2023', '21/12/2023', 'dsdss', '2023-12-21 08:35:32', 'aaad', '2023-12-21 14:12:31 ', 1, 1, 8);
+(18, 'Casual Leaves', '17/03/2024', '14/03/2024', 'Fest', '2024-03-07 03:56:36', NULL, NULL, 0, 0, 8);
 
 -- --------------------------------------------------------
 
@@ -208,7 +205,7 @@ ALTER TABLE `tblemployees`
 -- AUTO_INCREMENT for table `tblleaves`
 --
 ALTER TABLE `tblleaves`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=18;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=19;
 
 --
 -- AUTO_INCREMENT for table `tblleavetype`
